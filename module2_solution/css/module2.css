@@ -1,0 +1,100 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+div#container {
+  position: relative;
+}
+
+h1 {
+	font-size: 175%;
+	font-family: arial, helvetica, sans-serif;
+	text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+	.col-sm {
+		float:left;
+		width: 100%;
+		position: relative;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  	.col-md-a, .col-md-b {
+    	float: left;
+    	position: relative;
+  	}
+  	.col-md-a {
+  		width: 50%;
+  	}
+  	.col-md-b {
+  		width: 100%
+  	}
+}
+
+@media (min-width: 992px) {
+  	.col-lg-33 {
+    	float: left;
+  		width: 33.33%;
+  		position: relative;
+  	}
+}
+ 
+.itembox {
+	border: 1px solid black;
+	background-color: #A0A0A0;
+	margin: 5px;
+	font-family: arial, helvetica, sans-serif;
+	position: relative;
+	padding-top: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+div#menu-title-chicken {
+	position: absolute;
+	background-color: #FF9000;
+	width: 150px;
+	right: 0px;
+	top: 0px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 125%;
+	padding: 5px;
+}
+
+div#menu-title-beef {
+	position: absolute;
+	background-color: #FF5050;
+	width: 150px;
+	right: 0px;
+	top: 0px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 125%;
+	padding: 5px;
+}
+
+div#menu-title-sushi {
+	position: absolute;
+	background-color: #909000;
+	width: 150px;
+	right: 0px;
+	top: 0px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 125%;
+	padding: 5px;
+}
+
+</style>
